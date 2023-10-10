@@ -1,11 +1,11 @@
 .sidebar-container {
-  height: 100vh;
+  height: 93vh;
   width: 15%;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border-right: 1px solid dodgerblue;
+  border-right: 1px solid rgb(193, 193, 193);
   .sidebar-header {
     .logo {
       display: flex;
@@ -17,8 +17,9 @@
         margin: 10px;
         color: dodgerblue;
       }
-      p {
+      .logo-name {
         font-weight: bold;
+        color: rgb(0, 0, 89);
       }
     }
     .sidebar-navigation {
