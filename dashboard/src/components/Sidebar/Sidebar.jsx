@@ -42,7 +42,7 @@ const Sidebar = () => {
           src="https://www.its.ac.id/international/wp-content/uploads/sites/66/2020/02/blank-profile-picture-973460_1280.jpg"
           alt=""
         />
-        <div>My profile</div>
+        <div className='profile'>My profile</div>
         <BsChevronDown className="icon" />
       </div>
     </div>
