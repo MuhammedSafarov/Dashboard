@@ -82,4 +82,26 @@
       background-color: rgb(157, 176, 157);
     }
   }
+  .results {
+    display: flex;
+    margin-top: 1.2rem;
+    .icon {
+      background-color: var(--mainColor);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px;
+      border-radius: 10px;
+    }
+    .result-info {
+      margin-left: 1rem;
+      font-size: 14px;
+      .percent {
+        color: green;
+      }
+      .blue{
+          color: dodgerblue !important;
+      }
+    }
+  }
 }
