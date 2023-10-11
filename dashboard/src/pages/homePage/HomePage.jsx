@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../components/Header/Header";
+import Header from "../../layout/Header/Header";
 import DallasPage from "../dallasPage/DallasPage";
 import "./HomePage.scss";
 
