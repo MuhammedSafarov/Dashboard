@@ -6,6 +6,7 @@ import { BsGraphUp } from "@react-icons/all-files/bs/BsGraphUp";
 import { BsPeople } from "@react-icons/all-files/bs/BsPeople";
 import { BsChevronDown } from "@react-icons/all-files/bs/BsChevronDown";
 import { BiBuildings } from "@react-icons/all-files/bi/BiBuildings";
+import DropDownBtn from "../../components/DropDownBtn/DropDownBtn";
 
 const Sidebar = () => {
   return (
@@ -44,6 +45,7 @@ const Sidebar = () => {
         />
         <div className='profile'>My profile</div>
         <BsChevronDown className="icon" />
+      <DropDownBtn/>
       </div>
     </div>
   );

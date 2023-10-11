@@ -17,7 +17,7 @@
     align-items: center;
     .header-navigation-item:hover {
       font-weight: bold;
-      cursor: pointer;
+      cursor: pointer !important;
       padding-bottom: 2px;
       border-bottom: 2px solid dodgerblue;
     }

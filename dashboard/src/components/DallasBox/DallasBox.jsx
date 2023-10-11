@@ -3,8 +3,8 @@ import "./DallasBox.scss";
 import { Progress } from "antd";
 import { QuestionCircleOutlined } from "@ant-design/icons";
 import { BsVirus, BsEmojiSmile } from "react-icons/bs";
-import { TbVaccine} from 'react-icons/tb';
-import {PiFaceMaskLight} from "react-icons/pi";
+import { TbVaccine } from "react-icons/tb";
+import { PiFaceMaskLight } from "react-icons/pi";
 
 const DallasBox = () => {
   return (
@@ -48,7 +48,9 @@ const DallasBox = () => {
         </div>
         <div className="result-info">
           <p>Estimated office infection rate:</p>
-          <div className="percent"><b>0.3% </b>(low)</div>
+          <div className="percent">
+            <b>0.3% </b>(low)
+          </div>
         </div>
       </div>
       <div className="results">
@@ -57,7 +59,9 @@ const DallasBox = () => {
         </div>
         <div className="result-info">
           <p>Employee satisfaction rate:</p>
-          <div className="percent"><b>0.3% </b>(low)</div>
+          <div className="percent">
+            <b>0.3% </b>(low)
+          </div>
         </div>
       </div>
       <div className="results">
@@ -66,7 +70,9 @@ const DallasBox = () => {
         </div>
         <div className="result-info">
           <p>Employee vaccination rate:</p>
-          <div className="percent blue"><b>10%</b></div>
+          <div className="percent blue">
+            <b>10%</b>
+          </div>
         </div>
       </div>
       <div className="results">
@@ -75,7 +81,9 @@ const DallasBox = () => {
         </div>
         <div className="result-info">
           <p>Mask compliance :</p>
-          <div className="percent blue"><b>No</b></div>
+          <div className="percent blue">
+            <b>No</b>
+          </div>
         </div>
       </div>
     </div>
