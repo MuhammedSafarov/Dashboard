@@ -2,10 +2,11 @@ import "./App.css";
 import Sidebar from "./layout/Sidebar/Sidebar";
 import HomePage from "./pages/homePage/HomePage";
 import { Route, Routes } from "react-router-dom";
-import Header from "./layout/Header/Header";
 import ForecastPage from "./pages/forecastPage/ForecastPage";
 import AllOffices from "./pages/allOffices/AllOffices";
 import Employees from "./pages/employees/Employees";
+import CoopelPage from "./pages/coopelPage/CoopelPage";
+import LosAngelesPage from "./pages/losAngelesPage/LosAngelesPage";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <Route path="/forecast" element={<ForecastPage />} />
           <Route path="/all-offices" element={<AllOffices />} />
           <Route path="/employees" element={<Employees />} />
+          <Route path="/coopel-office" element={<CoopelPage />} />
+          <Route path="/losangeles-office" element={<LosAngelesPage />} />
         </Routes>
       </div>
     </div>
