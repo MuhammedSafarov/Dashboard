@@ -6,6 +6,7 @@ import { BsGraphUp } from "@react-icons/all-files/bs/BsGraphUp";
 import { BsPeople } from "@react-icons/all-files/bs/BsPeople";
 import { BiBuildings } from "@react-icons/all-files/bi/BiBuildings";
 import DropDownBtn from "../../components/DropDownBtn/DropDownBtn";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
@@ -21,19 +22,27 @@ const Sidebar = () => {
         <div className="sidebar-navigation">
           <div className="sidebar-sections" id="dashboard">
             <MdDashboard className="icons" />
-            <p>Dashboard</p>
+            <Link className="link" to="/">
+              <p>Dashboard</p>
+            </Link>
           </div>
           <div className="sidebar-sections" id="forecast">
             <BsGraphUp className="icons" />
-            <p>Forecast</p>
+            <Link className="link" to="/forecast">
+              <p>Forecast</p>
+            </Link>
           </div>
           <div className="sidebar-sections" id="all-offices">
             <BiBuildings className="icons" />
-            <p>All Offices</p>
+            <Link className="link" to="/all-offices">
+              <p>All Offices</p>
+            </Link>
           </div>
           <div className="sidebar-sections" id="employees">
             <BsPeople className="icons" />
-            <p>Employees</p>
+            <Link className="link" to="/employees">
+              <p>Employees</p>
+            </Link>
           </div>
         </div>
       </div>
