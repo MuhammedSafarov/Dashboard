@@ -35,7 +35,7 @@ const DropDownBtn = () => {
     <Dropdown menu={menuProps}>
       <Button className="people-btn">
         <Space>
-          People
+          Acc
           <DownOutlined />
         </Space>
       </Button>

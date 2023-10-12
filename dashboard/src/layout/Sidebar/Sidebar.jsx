@@ -4,7 +4,6 @@ import { FaBookMedical } from "@react-icons/all-files/fa/FaBookMedical";
 import { MdDashboard } from "@react-icons/all-files/md/MdDashboard";
 import { BsGraphUp } from "@react-icons/all-files/bs/BsGraphUp";
 import { BsPeople } from "@react-icons/all-files/bs/BsPeople";
-import { BsChevronDown } from "@react-icons/all-files/bs/BsChevronDown";
 import { BiBuildings } from "@react-icons/all-files/bi/BiBuildings";
 import DropDownBtn from "../../components/DropDownBtn/DropDownBtn";
 
@@ -43,9 +42,9 @@ const Sidebar = () => {
           src="https://www.its.ac.id/international/wp-content/uploads/sites/66/2020/02/blank-profile-picture-973460_1280.jpg"
           alt=""
         />
-        <div className='profile'>My profile</div>
-        <BsChevronDown className="icon" />
-      <DropDownBtn/>
+        <div className="dropdown">
+          <DropDownBtn className="dropdown" />
+        </div>
       </div>
     </div>
   );
